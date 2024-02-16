@@ -7,9 +7,9 @@ import (
 )
 
 type Config struct {
-	Port    string `json:"port"`
+	Port string `json:"port"`
 	Migrate string `json:"migrate"`
-	DB      struct {
+	DB   struct {
 		Driver string `json:"driver"`
 		DSN    string `json:"dsn"`
 	}

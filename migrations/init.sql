@@ -55,9 +55,9 @@ CREATE TABLE IF NOT EXISTS comments_votes (
 );
 INSERT
     OR IGNORE INTO category (name)
-VALUES ('Politic'),
-    ('Sport'),
-    ('Education'),
-    ('IT'),
-    ('Entertainment'),
+VALUES ('Golang'),
+    ('C++'),
+    ('Java'),
+    ('Python'),
+    ('Kotlin'),
     ('Other');

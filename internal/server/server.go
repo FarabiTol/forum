@@ -2,9 +2,10 @@ package server
 
 import (
 	"context"
-	"forum/config"
 	"net/http"
 	"time"
+
+	"forum/config"
 )
 
 type Server struct {

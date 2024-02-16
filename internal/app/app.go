@@ -2,17 +2,17 @@ package app
 
 import (
 	"context"
-	"forum/config"
-	"forum/internal/handler"
-	"forum/internal/render"
-	"forum/internal/server"
-	"forum/internal/service"
 	"log"
 	"os"
 	"os/signal"
 	"syscall"
 
+	"forum/config"
+	"forum/internal/handler"
+	"forum/internal/render"
 	repo "forum/internal/repository"
+	"forum/internal/server"
+	"forum/internal/service"
 )
 
 func RunServer(cfg *config.Config) {

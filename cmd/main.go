@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+
 	"forum/config"
 	"forum/internal/app"
 )
